@@ -1,0 +1,763 @@
+2023-03-02 21:21:43 [Thread:, INF] Executed DbCommand ("55"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 21:21:43 [Thread:, INF] Executed DbCommand ("26"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 21:21:43 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 21:21:43 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 21:21:43 [Thread:, INF] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 21:21:43 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 21:21:43 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 21:21:43 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 21:21:43 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 21:21:43 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 21:21:43 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 21:21:46 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/todo - -
+2023-03-02 21:21:46 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:21:46 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Dto.PagedViewDto`1[App.Application.Handlers.Todo.Responses.TodoGetResponse]] Test(App.Application.Handlers.Todo.Requests.TodoGetRequest, System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 21:21:46 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 124.5738ms
+2023-03-02 21:21:46 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:21:46 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/todo - - - 500 - application/json 271.5167ms
+2023-03-02 21:21:51 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/apple-touch-icon-precomposed.png - -
+2023-03-02 21:21:51 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/apple-touch-icon-precomposed.png - - - 404 0 - 0.8936ms
+2023-03-02 21:21:51 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/apple-touch-icon.png - -
+2023-03-02 21:21:51 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/favicon-16x16.png - -
+2023-03-02 21:21:51 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/favicon-32x32.png - -
+2023-03-02 21:21:51 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/apple-touch-icon.png - - - 404 0 - 1.2515ms
+2023-03-02 21:21:51 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/favicon.ico - -
+2023-03-02 21:21:51 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/favicon.ico - - - 404 0 - 0.1880ms
+2023-03-02 21:21:51 [Thread:, INF] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2023-03-02 21:21:51 [Thread:, INF] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"'
+2023-03-02 21:21:51 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/favicon-32x32.png - - - 200 628 image/png 11.4623ms
+2023-03-02 21:21:51 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/favicon-16x16.png - - - 200 665 image/png 11.5800ms
+2023-03-02 21:21:57 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/ - -
+2023-03-02 21:21:57 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/ - - - 404 0 - 1.7064ms
+2023-03-02 21:22:29 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2023-03-02 21:22:29 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 141.1291ms
+2023-03-02 21:22:29 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-02 21:22:29 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 72.2467ms
+2023-03-02 21:22:32 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/todo - -
+2023-03-02 21:22:32 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:22:32 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Dto.PagedViewDto`1[App.Application.Handlers.Todo.Responses.TodoGetResponse]] Test(App.Application.Handlers.Todo.Requests.TodoGetRequest, System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 21:22:32 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 53.9802ms
+2023-03-02 21:22:32 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:22:32 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/todo - - - 500 - application/json 77.8491ms
+2023-03-02 21:32:53 [Thread:, INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 21:32:53 [Thread:, INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 21:32:53 [Thread:, INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 21:32:53 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 21:32:53 [Thread:, INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 21:32:53 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 21:32:53 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 21:32:53 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 21:32:53 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 21:32:53 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 21:32:53 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 21:32:54 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/ - -
+2023-03-02 21:32:54 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/ - - - 404 0 - 65.5296ms
+2023-03-02 21:33:00 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2023-03-02 21:33:00 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 160.1670ms
+2023-03-02 21:33:00 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-02 21:33:00 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 64.0532ms
+2023-03-02 21:33:03 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/todo - -
+2023-03-02 21:33:03 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:33:03 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Dto.PagedViewDto`1[App.Application.Handlers.Todo.Responses.TodoGetResponse]] Test(App.Application.Handlers.Todo.Requests.TodoGetRequest, System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 21:33:03 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 40.5589ms
+2023-03-02 21:33:03 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:33:03 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/todo - - - 500 - application/json 151.5388ms
+2023-03-02 21:33:14 [Thread:, INF] Application is shutting down...
+2023-03-02 21:33:23 [Thread:, INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 21:33:23 [Thread:, INF] Executed DbCommand ("26"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 21:33:23 [Thread:, INF] Executed DbCommand ("76"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 21:33:23 [Thread:, INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 21:33:23 [Thread:, INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 21:33:23 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 21:33:24 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 21:33:24 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 21:33:24 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 21:33:24 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 21:33:24 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 21:33:27 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/todo - -
+2023-03-02 21:33:27 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:33:27 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Dto.PagedViewDto`1[App.Application.Handlers.Todo.Responses.TodoGetResponse]] Test(App.Application.Handlers.Todo.Requests.TodoGetRequest, System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 21:33:27 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 122.1255ms
+2023-03-02 21:33:27 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:33:27 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/todo - - - 500 - application/json 269.2460ms
+2023-03-02 21:34:50 [Thread:, INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 21:34:50 [Thread:, INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 21:34:50 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 21:34:50 [Thread:, INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 21:34:50 [Thread:, INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 21:34:50 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 21:34:51 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 21:34:51 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 21:34:51 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 21:34:51 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 21:34:51 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 21:34:53 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2023-03-02 21:34:53 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 135.1580ms
+2023-03-02 21:34:53 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-02 21:34:53 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.1579ms
+2023-03-02 21:35:02 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/todo?Filter.Id=1&Pagination.PageSize=1&Pagination.PageNumber=1&Sort.SortableType=Ascending - -
+2023-03-02 21:35:02 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:35:02 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.LogFilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 21:35:05 [Thread:, INF] This is test
+2023-03-02 21:35:05 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 21:35:05 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 2480.6653ms
+2023-03-02 21:35:05 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:35:05 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/todo?Filter.Id=1&Pagination.PageSize=1&Pagination.PageNumber=1&Sort.SortableType=Ascending - - - 200 - application/json;+charset=utf-8 2558.6644ms
+2023-03-02 21:36:53 [Thread:, INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 21:36:53 [Thread:, INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 21:36:53 [Thread:, INF] Executed DbCommand ("55"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 21:36:53 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 21:36:53 [Thread:, INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 21:36:53 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 21:36:53 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 21:36:53 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 21:36:53 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 21:36:53 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 21:36:53 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 21:36:57 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2023-03-02 21:36:57 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 159.9286ms
+2023-03-02 21:36:57 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-02 21:36:57 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 83.9816ms
+2023-03-02 21:37:07 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - -
+2023-03-02 21:37:07 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:37:08 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.LogFilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 21:37:08 [Thread:, INF] This is test
+2023-03-02 21:37:08 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 21:37:08 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 569.641ms
+2023-03-02 21:37:08 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:37:08 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - - - 200 - application/json;+charset=utf-8 608.3320ms
+2023-03-02 21:49:21 [Thread:, INF] Executed DbCommand ("26"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 21:49:22 [Thread:, INF] Executed DbCommand ("28"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 21:49:22 [Thread:, INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 21:49:22 [Thread:, INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 21:49:22 [Thread:, INF] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 21:49:22 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 21:49:22 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 21:49:22 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 21:49:22 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 21:49:22 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 21:49:22 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 21:49:22 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/ - -
+2023-03-02 21:49:22 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/ - - - 404 0 - 60.4564ms
+2023-03-02 21:49:24 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/apple-touch-icon-precomposed.png - -
+2023-03-02 21:49:24 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/apple-touch-icon-precomposed.png - - - 404 0 - 0.4495ms
+2023-03-02 21:49:25 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/favicon.ico - -
+2023-03-02 21:49:25 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/apple-touch-icon.png - -
+2023-03-02 21:49:25 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/apple-touch-icon.png - - - 0 - - 2.3055ms
+2023-03-02 21:49:25 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/favicon.ico - - - 0 - - 12.4862ms
+2023-03-02 21:49:29 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2023-03-02 21:49:29 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 121.6464ms
+2023-03-02 21:49:29 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-02 21:49:29 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.6990ms
+2023-03-02 21:49:33 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1 - -
+2023-03-02 21:49:33 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:49:33 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.LogFilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 21:49:33 [Thread:, INF] This is test
+2023-03-02 21:49:33 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 21:49:33 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 431.78ms
+2023-03-02 21:49:33 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 21:49:33 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1 - - - 200 - application/json;+charset=utf-8 475.7472ms
+2023-03-02 21:49:36 [Thread:, INF] Application is shutting down...
+2023-03-02 22:27:15 [Thread:, INF] Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 22:27:15 [Thread:, INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 22:27:15 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 22:27:15 [Thread:, INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 22:27:15 [Thread:, INF] Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 22:27:15 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 22:27:15 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 22:27:15 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 22:27:15 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 22:27:15 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 22:27:15 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 22:27:16 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/ - -
+2023-03-02 22:27:16 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/ - - - 404 0 - 32.3194ms
+2023-03-02 22:27:18 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/apple-touch-icon-precomposed.png - -
+2023-03-02 22:27:18 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/apple-touch-icon-precomposed.png - - - 404 0 - 0.5147ms
+2023-03-02 22:27:18 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/apple-touch-icon.png - -
+2023-03-02 22:27:18 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/favicon.ico - -
+2023-03-02 22:27:18 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/apple-touch-icon.png - - - 404 0 - 0.7481ms
+2023-03-02 22:27:18 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/favicon.ico - - - 404 0 - 0.2665ms
+2023-03-02 22:27:22 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2023-03-02 22:27:22 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 149.8269ms
+2023-03-02 22:27:22 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-02 22:27:22 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.6699ms
+2023-03-02 22:27:34 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=1&Sort.SortableType=Ascending - -
+2023-03-02 22:27:34 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:27:34 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.LogFilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:27:34 [Thread:, INF] This is test
+2023-03-02 22:27:34 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:27:34 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 442.7559ms
+2023-03-02 22:27:34 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:27:34 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=1&Sort.SortableType=Ascending - - - 200 - application/json;+charset=utf-8 480.0089ms
+2023-03-02 22:28:24 [Thread:, INF] Application is shutting down...
+2023-03-02 22:28:31 [Thread:, INF] Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 22:28:31 [Thread:, INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 22:28:31 [Thread:, INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 22:28:31 [Thread:, INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 22:28:31 [Thread:, INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 22:28:31 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 22:28:31 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 22:28:31 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 22:28:31 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 22:28:31 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 22:28:31 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 22:28:31 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/ - -
+2023-03-02 22:28:31 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/ - - - 404 0 - 32.3207ms
+2023-03-02 22:28:34 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2023-03-02 22:28:34 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 134.2996ms
+2023-03-02 22:28:34 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-02 22:28:34 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.0597ms
+2023-03-02 22:29:00 [Thread:, INF] Application is shutting down...
+2023-03-02 22:29:58 [Thread:, INF] Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 22:29:58 [Thread:, INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 22:29:58 [Thread:, INF] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 22:29:58 [Thread:, INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 22:29:58 [Thread:, INF] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 22:29:58 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 22:29:58 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 22:29:58 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 22:29:58 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 22:29:58 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 22:29:58 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 22:29:58 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/ - -
+2023-03-02 22:29:58 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/ - - - 404 0 - 35.6458ms
+2023-03-02 22:30:01 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2023-03-02 22:30:01 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 132.0274ms
+2023-03-02 22:30:01 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-02 22:30:01 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.5226ms
+2023-03-02 22:30:18 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1 - 0
+2023-03-02 22:30:18 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:30:18 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:30:19 [Thread:, INF] This is test
+2023-03-02 22:30:19 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:30:19 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 417.1076ms
+2023-03-02 22:30:19 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:30:19 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1 - 0 - 200 - application/json;+charset=utf-8 473.1951ms
+2023-03-02 22:30:48 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=2&Filter.Name=Test&Sort.SortableType=Ascending - 0
+2023-03-02 22:30:48 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:30:48 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:30:49 [Thread:, INF] This is test
+2023-03-02 22:30:49 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:30:49 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 27.4099ms
+2023-03-02 22:30:49 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:30:49 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=2&Filter.Name=Test&Sort.SortableType=Ascending - 0 - 200 - application/json;+charset=utf-8 31.2604ms
+2023-03-02 22:31:03 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=2&Filter.Name=Test&Sort.SortableType=Ascending - -
+2023-03-02 22:31:03 [Thread:, INF] Executing endpoint '"405 HTTP Method Not Supported"'
+2023-03-02 22:31:03 [Thread:, INF] Executed endpoint '"405 HTTP Method Not Supported"'
+2023-03-02 22:31:03 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=2&Filter.Name=Test&Sort.SortableType=Ascending - - - 405 0 - 1.7891ms
+2023-03-02 22:31:13 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=2&Filter.Name=Test&Sort.SortableType=Ascending - 0
+2023-03-02 22:31:13 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:31:13 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:31:13 [Thread:, INF] This is test
+2023-03-02 22:31:13 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:31:13 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 43.8957ms
+2023-03-02 22:31:13 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:31:13 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=2&Filter.Name=Test&Sort.SortableType=Ascending - 0 - 200 - application/json;+charset=utf-8 44.8126ms
+2023-03-02 22:31:16 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=2&Filter.Name=Test&Sort.SortableType=Ascending - -
+2023-03-02 22:31:16 [Thread:, INF] Executing endpoint '"405 HTTP Method Not Supported"'
+2023-03-02 22:31:16 [Thread:, INF] Executed endpoint '"405 HTTP Method Not Supported"'
+2023-03-02 22:31:16 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=2&Filter.Name=Test&Sort.SortableType=Ascending - - - 405 0 - 0.8499ms
+2023-03-02 22:31:41 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=2&Filter.Name=Test&Sort.SortableType=Ascending - 0
+2023-03-02 22:31:41 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:31:41 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:31:41 [Thread:, INF] This is test
+2023-03-02 22:31:41 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:31:41 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 34.5139ms
+2023-03-02 22:31:41 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:31:41 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=2&Filter.Name=Test&Sort.SortableType=Ascending - 0 - 200 - application/json;+charset=utf-8 40.5245ms
+2023-03-02 22:31:47 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=2&Filter.Name=Test&Sort.SortableType=Ascending - 0
+2023-03-02 22:31:47 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:31:47 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:31:47 [Thread:, INF] This is test
+2023-03-02 22:31:47 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:31:47 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 14.0918ms
+2023-03-02 22:31:47 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:31:47 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1&Filter.Id=2&Filter.Name=Test&Sort.SortableType=Ascending - 0 - 200 - application/json;+charset=utf-8 15.4825ms
+2023-03-02 22:33:12 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo application/json 113
+2023-03-02 22:33:12 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:33:12 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:33:12 [Thread:, INF] This is test
+2023-03-02 22:33:12 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:33:12 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 13.5634ms
+2023-03-02 22:33:12 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:33:12 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo application/json 113 - 200 - application/json;+charset=utf-8 16.3256ms
+2023-03-02 22:33:13 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo application/json 113
+2023-03-02 22:33:13 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:33:13 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:33:13 [Thread:, INF] This is test
+2023-03-02 22:33:13 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:33:13 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 12.1191ms
+2023-03-02 22:33:13 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:33:13 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo application/json 113 - 200 - application/json;+charset=utf-8 25.7386ms
+2023-03-02 22:33:21 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo - 0
+2023-03-02 22:33:21 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:33:21 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:33:21 [Thread:, INF] This is test
+2023-03-02 22:33:21 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:33:21 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 22.7692ms
+2023-03-02 22:33:21 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:33:21 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo - 0 - 200 - application/json;+charset=utf-8 26.4640ms
+2023-03-02 22:33:22 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo - 0
+2023-03-02 22:33:22 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:33:22 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:33:22 [Thread:, INF] This is test
+2023-03-02 22:33:22 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:33:22 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 15.1154ms
+2023-03-02 22:33:22 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:33:22 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo - 0 - 200 - application/json;+charset=utf-8 16.0566ms
+2023-03-02 22:33:26 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/todo application/json 112
+2023-03-02 22:33:26 [Thread:, INF] Executing endpoint '"405 HTTP Method Not Supported"'
+2023-03-02 22:33:26 [Thread:, INF] Executed endpoint '"405 HTTP Method Not Supported"'
+2023-03-02 22:33:26 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/todo application/json 112 - 405 0 - 0.6989ms
+2023-03-02 22:33:29 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo application/json 112
+2023-03-02 22:33:29 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:33:29 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:33:29 [Thread:, INF] This is test
+2023-03-02 22:33:29 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:33:29 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 15.177ms
+2023-03-02 22:33:29 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:33:29 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo application/json 112 - 200 - application/json;+charset=utf-8 17.9459ms
+2023-03-02 22:34:01 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo application/json 124
+2023-03-02 22:34:01 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:34:01 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:34:01 [Thread:, INF] This is test
+2023-03-02 22:34:01 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:34:01 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 21.3526ms
+2023-03-02 22:34:01 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:34:01 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo application/json 124 - 200 - application/json;+charset=utf-8 22.7165ms
+2023-03-02 22:34:01 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo application/json 124
+2023-03-02 22:34:01 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:34:01 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:34:01 [Thread:, INF] This is test
+2023-03-02 22:34:01 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:34:01 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 23.9166ms
+2023-03-02 22:34:01 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:34:01 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo application/json 124 - 200 - application/json;+charset=utf-8 25.6974ms
+2023-03-02 22:34:06 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo application/json 125
+2023-03-02 22:34:06 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:34:06 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:34:06 [Thread:, INF] This is test
+2023-03-02 22:34:06 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:34:06 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 19.6329ms
+2023-03-02 22:34:06 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:34:06 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo application/json 125 - 200 - application/json;+charset=utf-8 21.4639ms
+2023-03-02 22:34:40 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo application/json 133
+2023-03-02 22:34:40 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:34:40 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:34:40 [Thread:, INF] This is test
+2023-03-02 22:34:40 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:34:40 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 26.8349ms
+2023-03-02 22:34:40 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:34:40 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo application/json 133 - 200 - application/json;+charset=utf-8 29.3019ms
+2023-03-02 22:34:56 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/todo application/json 133
+2023-03-02 22:34:56 [Thread:, INF] Executing endpoint '"405 HTTP Method Not Supported"'
+2023-03-02 22:34:56 [Thread:, INF] Executed endpoint '"405 HTTP Method Not Supported"'
+2023-03-02 22:34:56 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/todo application/json 133 - 405 0 - 4.8356ms
+2023-03-02 22:34:59 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo application/json 133
+2023-03-02 22:34:59 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:34:59 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Common.Models.PageResponseDto`1[App.Common.Models.Dto.TodoModelResponseDto]] Test(App.Common.Models.Dto.Filter.FilterRequestDto`3[App.Common.Models.Dto.Filter.TodoModelFilterDto,App.Common.Models.Dto.Sort.TodoModelSort,App.Common.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:34:59 [Thread:, INF] This is test
+2023-03-02 22:34:59 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Common.Models.PageResponseDto`1[[App.Common.Models.Dto.TodoModelResponseDto, App.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:34:59 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 35.2631ms
+2023-03-02 22:34:59 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:34:59 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo application/json 133 - 200 - application/json;+charset=utf-8 36.9348ms
+2023-03-02 22:35:11 [Thread:, INF] Application is shutting down...
+2023-03-02 22:56:02 [Thread:, INF] Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 22:56:02 [Thread:, INF] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 22:56:02 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 22:56:02 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 22:56:02 [Thread:, INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 22:56:02 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 22:56:02 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 22:56:02 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 22:56:02 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 22:56:02 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 22:56:02 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 22:56:02 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/ - -
+2023-03-02 22:56:03 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/ - - - 404 0 - 32.3937ms
+2023-03-02 22:56:05 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/apple-touch-icon-precomposed.png - -
+2023-03-02 22:56:05 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/apple-touch-icon-precomposed.png - - - 404 0 - 18.8105ms
+2023-03-02 22:56:05 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/favicon.ico - -
+2023-03-02 22:56:05 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/apple-touch-icon.png - -
+2023-03-02 22:56:05 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/favicon.ico - - - 404 0 - 0.7382ms
+2023-03-02 22:56:05 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/apple-touch-icon.png - - - 404 0 - 0.7534ms
+2023-03-02 22:56:07 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2023-03-02 22:56:07 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 140.6738ms
+2023-03-02 22:56:07 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-02 22:56:07 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.8170ms
+2023-03-02 22:56:13 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1 - 0
+2023-03-02 22:56:13 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:56:13 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Models.PageResponseDto`1[App.Application.Models.Dto.TodoModelResponseDto]] Test(App.Application.Models.Dto.Filter.FilterRequestDto`3[App.Application.Models.Dto.Filter.TodoModelFilterDto,App.Application.Models.Dto.Sort.TodoModelSort,App.Application.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 22:56:13 [Thread:, INF] This is test
+2023-03-02 22:56:13 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Application.Models.PageResponseDto`1[[App.Application.Models.Dto.TodoModelResponseDto, App.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 22:56:13 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 428.0905ms
+2023-03-02 22:56:13 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 22:56:13 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=1 - 0 - 200 - application/json;+charset=utf-8 482.9244ms
+2023-03-02 22:56:16 [Thread:, INF] Application is shutting down...
+2023-03-02 23:42:34 [Thread:, INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:42:34 [Thread:, INF] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:42:34 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:42:34 [Thread:, INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:42:34 [Thread:, INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 23:42:34 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 23:42:34 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 23:42:34 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 23:42:34 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 23:42:34 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 23:42:34 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 23:44:05 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2023-03-02 23:44:05 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 138.1285ms
+2023-03-02 23:44:06 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-02 23:44:06 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.8091ms
+2023-03-02 23:44:10 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0
+2023-03-02 23:44:10 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:44:10 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Models.PageResponseDto`1[App.Application.Models.Dto.TodoModelResponseDto]] Test(App.Application.Models.Dto.Filter.FilterRequestDto`3[App.Application.Models.Dto.Filter.TodoModelFilterDto,App.Application.Models.Dto.Sort.TodoModelSort,App.Application.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 23:44:11 [Thread:, INF] This is test
+2023-03-02 23:44:11 [Thread:, INF] Executing "ObjectResult", writing value of type '"App.Application.Models.PageResponseDto`1[[App.Application.Models.Dto.TodoModelResponseDto, App.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2023-03-02 23:44:11 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 705.9633ms
+2023-03-02 23:44:11 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:44:11 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0 - 200 - application/json;+charset=utf-8 756.5784ms
+2023-03-02 23:45:52 [Thread:, INF] Executed DbCommand ("71"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:45:53 [Thread:, INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:45:53 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:45:53 [Thread:, INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:45:53 [Thread:, INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 23:45:53 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 23:45:53 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 23:45:53 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 23:45:53 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 23:45:53 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 23:45:53 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 23:45:56 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/index.html - -
+2023-03-02 23:45:56 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 161.6254ms
+2023-03-02 23:45:56 [Thread:, INF] Request starting HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-03-02 23:45:56 [Thread:, INF] Request finished HTTP/1.1 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.7552ms
+2023-03-02 23:46:01 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0
+2023-03-02 23:46:01 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:46:01 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Models.PageResponseDto`1[App.Application.Models.Dto.TodoModelResponseDto]] Test(App.Application.Models.Dto.Filter.FilterRequestDto`3[App.Application.Models.Dto.Filter.TodoModelFilterDto,App.Application.Models.Dto.Sort.TodoModelSort,App.Application.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 23:46:01 [Thread:, ERR] Handling request ended with an error
+System.Text.Json.JsonException: 'K' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: 'K' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at KIT.Redis.Repositories.RedisRepository.GetAsync[T](String key) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/KIT.Redis/Repositories/RedisRepository.cs:line 48
+   at App.Application.Handlers.TodoHandler.Handle(FilterRequestDto`3 request, CancellationToken cancellationToken) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/App.Application/Handlers/TodoHandler.cs:line 34
+   at KIT.MediatR.PipelineBehaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at KIT.MediatR.PipelineBehaviors.LogPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/KIT.MediatR/PipelineBehaviors/LogPipelineBehavior.cs:line 32
+2023-03-02 23:46:01 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 482.3876ms
+2023-03-02 23:46:01 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:46:02 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0 - 500 - application/json 697.9352ms
+2023-03-02 23:46:12 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0
+2023-03-02 23:46:12 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:46:12 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Models.PageResponseDto`1[App.Application.Models.Dto.TodoModelResponseDto]] Test(App.Application.Models.Dto.Filter.FilterRequestDto`3[App.Application.Models.Dto.Filter.TodoModelFilterDto,App.Application.Models.Dto.Sort.TodoModelSort,App.Application.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 23:46:26 [Thread:, ERR] Handling request ended with an error
+System.Text.Json.JsonException: 'K' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: 'K' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at KIT.Redis.Repositories.RedisRepository.GetAsync[T](String key) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/KIT.Redis/Repositories/RedisRepository.cs:line 48
+   at App.Application.Handlers.TodoHandler.Handle(FilterRequestDto`3 request, CancellationToken cancellationToken) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/App.Application/Handlers/TodoHandler.cs:line 34
+   at KIT.MediatR.PipelineBehaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at KIT.MediatR.PipelineBehaviors.LogPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/KIT.MediatR/PipelineBehaviors/LogPipelineBehavior.cs:line 32
+2023-03-02 23:46:26 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 14224.6168ms
+2023-03-02 23:46:26 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:46:26 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0 - 500 - application/json 14256.7154ms
+2023-03-02 23:46:29 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0
+2023-03-02 23:46:29 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:46:29 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Models.PageResponseDto`1[App.Application.Models.Dto.TodoModelResponseDto]] Test(App.Application.Models.Dto.Filter.FilterRequestDto`3[App.Application.Models.Dto.Filter.TodoModelFilterDto,App.Application.Models.Dto.Sort.TodoModelSort,App.Application.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 23:46:29 [Thread:, ERR] Handling request ended with an error
+System.Text.Json.JsonException: 'K' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: 'K' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at KIT.Redis.Repositories.RedisRepository.GetAsync[T](String key) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/KIT.Redis/Repositories/RedisRepository.cs:line 48
+   at App.Application.Handlers.TodoHandler.Handle(FilterRequestDto`3 request, CancellationToken cancellationToken) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/App.Application/Handlers/TodoHandler.cs:line 34
+   at KIT.MediatR.PipelineBehaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at KIT.MediatR.PipelineBehaviors.LogPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/KIT.MediatR/PipelineBehaviors/LogPipelineBehavior.cs:line 32
+2023-03-02 23:46:29 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 149.0164ms
+2023-03-02 23:46:29 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:46:29 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0 - 500 - application/json 176.5347ms
+2023-03-02 23:46:30 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0
+2023-03-02 23:46:30 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:46:30 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Models.PageResponseDto`1[App.Application.Models.Dto.TodoModelResponseDto]] Test(App.Application.Models.Dto.Filter.FilterRequestDto`3[App.Application.Models.Dto.Filter.TodoModelFilterDto,App.Application.Models.Dto.Sort.TodoModelSort,App.Application.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 23:46:30 [Thread:, ERR] Handling request ended with an error
+System.Text.Json.JsonException: 'K' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: 'K' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at KIT.Redis.Repositories.RedisRepository.GetAsync[T](String key) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/KIT.Redis/Repositories/RedisRepository.cs:line 48
+   at App.Application.Handlers.TodoHandler.Handle(FilterRequestDto`3 request, CancellationToken cancellationToken) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/App.Application/Handlers/TodoHandler.cs:line 34
+   at KIT.MediatR.PipelineBehaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at KIT.MediatR.PipelineBehaviors.LogPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/KIT.MediatR/PipelineBehaviors/LogPipelineBehavior.cs:line 32
+2023-03-02 23:46:30 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 93.9281ms
+2023-03-02 23:46:30 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:46:30 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0 - 500 - application/json 120.2896ms
+2023-03-02 23:46:41 [Thread:, INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:46:41 [Thread:, INF] Executed DbCommand ("32"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:46:41 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:46:41 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:46:41 [Thread:, INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 23:46:41 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 23:46:41 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 23:46:41 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 23:46:41 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 23:46:41 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 23:46:41 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 23:46:43 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0
+2023-03-02 23:46:43 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:46:43 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Models.PageResponseDto`1[App.Application.Models.Dto.TodoModelResponseDto]] Test(App.Application.Models.Dto.Filter.FilterRequestDto`3[App.Application.Models.Dto.Filter.TodoModelFilterDto,App.Application.Models.Dto.Sort.TodoModelSort,App.Application.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 23:50:57 [Thread:, INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:50:58 [Thread:, INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:50:58 [Thread:, INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:50:58 [Thread:, INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:50:58 [Thread:, INF] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 23:50:58 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 23:50:58 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 23:50:58 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 23:50:58 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 23:50:58 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 23:50:58 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 23:50:59 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0
+2023-03-02 23:50:59 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:50:59 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Models.PageResponseDto`1[App.Application.Models.Dto.TodoModelResponseDto]] Test(App.Application.Models.Dto.Filter.FilterRequestDto`3[App.Application.Models.Dto.Filter.TodoModelFilterDto,App.Application.Models.Dto.Sort.TodoModelSort,App.Application.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 23:53:09 [Thread:, INF] Executed DbCommand ("117"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:53:09 [Thread:, INF] Executed DbCommand ("51"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:53:09 [Thread:, INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:53:09 [Thread:, INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:53:09 [Thread:, INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 23:53:09 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 23:53:10 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 23:53:10 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 23:53:10 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 23:53:10 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 23:53:10 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 23:53:12 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0
+2023-03-02 23:53:12 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:53:12 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Models.PageResponseDto`1[App.Application.Models.Dto.TodoModelResponseDto]] Test(App.Application.Models.Dto.Filter.FilterRequestDto`3[App.Application.Models.Dto.Filter.TodoModelFilterDto,App.Application.Models.Dto.Sort.TodoModelSort,App.Application.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 23:55:11 [Thread:, ERR] Handling request ended with an error
+System.Text.Json.JsonException: 'K' is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+ ---> System.Text.Json.JsonReaderException: 'K' is an invalid start of a value. LineNumber: 0 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeValue(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadFirstToken(Byte first)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at KIT.Redis.Repositories.RedisRepository.GetAsync[T](String key) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/KIT.Redis/Repositories/RedisRepository.cs:line 48
+   at App.Application.Handlers.TodoHandler.Handle(FilterRequestDto`3 request, CancellationToken cancellationToken) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/App.Application/Handlers/TodoHandler.cs:line 36
+   at KIT.MediatR.PipelineBehaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at KIT.MediatR.PipelineBehaviors.LogPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in /Users/kamranmusayev/Desktop/tutorial/App/App/src/KIT.MediatR/PipelineBehaviors/LogPipelineBehavior.cs:line 32
+2023-03-02 23:55:11 [Thread:, INF] Executed action "App.WebApi.Controllers.TodoController.Test (App.WebApi)" in 119444.5097ms
+2023-03-02 23:55:11 [Thread:, INF] Executed endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:55:12 [Thread:, INF] Request finished HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0 - 500 - application/json 119647.1848ms
+2023-03-02 23:55:14 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0
+2023-03-02 23:55:14 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:55:14 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Models.PageResponseDto`1[App.Application.Models.Dto.TodoModelResponseDto]] Test(App.Application.Models.Dto.Filter.FilterRequestDto`3[App.Application.Models.Dto.Filter.TodoModelFilterDto,App.Application.Models.Dto.Sort.TodoModelSort,App.Application.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 23:55:31 [Thread:, INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:55:31 [Thread:, INF] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:55:31 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:55:31 [Thread:, INF] Executed DbCommand ("84"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:55:31 [Thread:, INF] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 23:55:31 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 23:55:32 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 23:55:32 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 23:55:32 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 23:55:32 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 23:55:32 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 23:55:35 [Thread:, INF] Request starting HTTP/1.1 POST https://localhost:7200/todo?Pagination.PageSize=1&Pagination.PageNumber=2 - 0
+2023-03-02 23:55:35 [Thread:, INF] Executing endpoint '"App.WebApi.Controllers.TodoController.Test (App.WebApi)"'
+2023-03-02 23:55:35 [Thread:, INF] Route matched with "{action = \"Test\", controller = \"Todo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[App.Application.Models.PageResponseDto`1[App.Application.Models.Dto.TodoModelResponseDto]] Test(App.Application.Models.Dto.Filter.FilterRequestDto`3[App.Application.Models.Dto.Filter.TodoModelFilterDto,App.Application.Models.Dto.Sort.TodoModelSort,App.Application.Models.Dto.TodoModelResponseDto], System.Threading.CancellationToken)" on controller "App.WebApi.Controllers.TodoController" ("App.WebApi").
+2023-03-02 23:58:45 [Thread:, INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:58:45 [Thread:, INF] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:58:45 [Thread:, INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:58:45 [Thread:, INF] Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:58:45 [Thread:, INF] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 23:58:45 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 23:58:45 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 23:58:45 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 23:58:45 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 23:58:45 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 23:58:45 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"
+2023-03-02 23:59:08 [Thread:, INF] Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:59:08 [Thread:, INF] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:59:08 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+2023-03-02 23:59:08 [Thread:, INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+2023-03-02 23:59:08 [Thread:, INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+2023-03-02 23:59:08 [Thread:, INF] No migrations were applied. The database is already up to date.
+2023-03-02 23:59:08 [Thread:, INF] Now listening on: "https://localhost:7200"
+2023-03-02 23:59:08 [Thread:, INF] Now listening on: "http://localhost:5017"
+2023-03-02 23:59:08 [Thread:, INF] Application started. Press Ctrl+C to shut down.
+2023-03-02 23:59:08 [Thread:, INF] Hosting environment: "Development"
+2023-03-02 23:59:08 [Thread:, INF] Content root path: "/Users/kamranmusayev/Desktop/tutorial/App/App/src/App.WebApi/"

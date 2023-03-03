@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>App.WebApi</RootNamespace>
+        <AssemblyName>App.WebApi</AssemblyName>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DocumentationFile>bin\Debug\net6.0\App.WebApi.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DocumentationFile>bin\Release\net6.0\App.WebApi.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\App.Application\App.Application.csproj" />
+        <ProjectReference Include="..\App.Persistence\App.Persistence.csproj" />
+        <ProjectReference Include="..\App.Setup\App.Setup.csproj" />
+        <ProjectReference Include="..\KIT.Proxy\KIT.Proxy.csproj" />
+        <ProjectReference Include="..\KIT.Redis\KIT.Redis.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="..\..\config\api.appsettings.json">
+            <Link>config\api.appsettings.json</Link>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="..\..\config\api.env.debug.json">
+            <Link>config\api.env.debug.json</Link>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="..\..\config\api.env.development.json">
+            <Link>config\api.env.development.json</Link>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="..\..\config\api.serilog.development.json">
+          <Link>config\api.serilog.development.json</Link>
+        </Content>
+        <Content Include="..\..\config\api.serilog.production.json">
+          <Link>config\api.serilog.production.json</Link>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="11.1.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="logs" />
+    </ItemGroup>
+
+</Project>

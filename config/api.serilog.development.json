@@ -1,0 +1,30 @@
+{
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Information",
+        "Microsoft.Hosting.Lifetime": "Information",
+        "System": "Information"
+      }
+    },
+    "Using": [ "Serilog.Sinks.Console", "Serilog.Sinks.File" ],
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "outputTemplate": "{Timestamp:yyyy.MM.dd HH:mm:ss} [{Level:u3}] {Message}{NewLine}{Exception}"
+        }
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "logs/log_.txt",
+          "rollingInterval": "Day",
+          "retainedFileCountLimit": 50,
+          "outputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss} [Thread:{ThreadId}, {Level:u3}] {Message}{NewLine}{Exception}"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "Database": {
+    "ConnectionString": "$ConnectionStrings__Db"
+  },
+  "Redis": {
+    "ConnectionString": "$ConnectionStrings__Redis",
+    "InstanceName": "$ConnectionStrings__KeyPrefix__Redis"
+  },
+  "Swagger": {
+    "XmlComments": [ "App.WebApi.xml", "App.Application.xml" ]
+  }
+}

@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  
+  appservice:
+    container_name: appservice
+    image: appservice
+    build:
+      args:
+        - APP_PORT=${APP_PORT}
+        - APP_NAME=${APP_NAME}
+      context: .
+      dockerfile: Dockerfile.development
+    ports:
+      - ${APP_PORT}:${APP_PORT}
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${APP_ENV}
+    volumes:
+      - ~/.vsdbg:/remote_debugger:rw
+      - ./config:/app/config
+    networks:
+      - ${NETWORKS_NAME}
+
+  redis:
+    container_name: redis
+    image: docker.io/bitnami/redis:${REDIS_VERSION}
+    environment:
+      - ALLOW_EMPTY_PASSWORD=${REDIS_ALLOW_EMPTY_PASSWORD}
+      - REDIS_DISABLE_COMMANDS=${REDIS_DISABLE_COMMANDS}
+    ports:
+      - ${REDIS_PORT}:${REDIS_PORT}
+    networks:
+      - ${NETWORKS_NAME}
+    volumes:
+      - 'redis_data:/bitnami/redis/data'
+
+networks:
+  appservice:
+    driver: ${NETWORKS_DRIVER}
+
+volumes:
+  redis_data:
+    driver: local
+  elasticsearch-data:
+  datastore:
